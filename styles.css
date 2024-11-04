@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    list-style-type: disc; /* Ensure bullet points are used */
+    margin-left: 50px; /* Add left margin for better indentation */
+}
+h1{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+ h2{
+    color: rgb(65, 165, 115);
+    font-size: 50px;;
+    font-weight:500;
+
+ }
+
+ .container{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+ }
+
+ h3{
+    color: black;
+    font-size: px;
+    font-weight: 700;
+
+ }
+ h4{
+    font-weight: 500;
+
+ }
+
+ .cargo{
+    color: black;
+    font-size: 20px;
+ }
+
+ img {
+    width: 100px; /* Set a fixed width for each image */
+    height: auto; /* Auto-adjust height to keep aspect ratio */
+    margin-right: 10px; /* Add spacing between icons */
+    vertical-align: middle; /* Align icons with text */
+}
+
+.education,
+.experience,
+.social {
+    margin-bottom: 30px; /* Adjust this value as needed */
+}
+
+.skill{
+    margin-bottom: 20px;
+}
+
+
